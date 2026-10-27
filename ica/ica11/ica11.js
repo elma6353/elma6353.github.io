@@ -23,10 +23,9 @@ function returnRandomStoryString() {
     randomEvent = randomValueFromArray(events);
 
   let storyText = `It was 94 Fahrenheit outside, so ${randomCharacter} went to tan outside.
-   When they got to ${randomPlace}, they stared in awe for a few moments,
-    then ${randomEvent}. Bob saw a whole thing, but was not surprised 
-    — ${randomCharacter} weighs 300 pounds, and it was a hot day. ${randomPlace} was known 
-    for mysterious events.`;
+   When they got to ${randomPlace}, they stared in awe for a few moments, then ${randomEvent}. 
+   Bob saw a whole thing, but was not surprised — ${randomCharacter} weighs 300 pounds, and it was a hot day. 
+   Everyone knew ${randomPlace} was known for exciting events.`;
 
   return storyText;
 }
